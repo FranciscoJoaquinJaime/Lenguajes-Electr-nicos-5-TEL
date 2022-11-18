@@ -11,11 +11,7 @@ int main(void) {
 }
 
 void vocal (char palabra[LIM]){
-  int a=0;
-  int e=0;
-  int i=0;
-  int o=0;
-  int u=0;
+  int a=0, e=0, i=0, o=0, u=0; 
 
   for (int j=0; j<LIM; j++){
    if(palabra[j] == 'a') a++;
